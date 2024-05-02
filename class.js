@@ -45,4 +45,7 @@ class Word {
   }
 }
 
+let word3 = new Word("nice")
+console.log(word3.pigLatin())
+console.log(word3.removeVowels())
 module.exports = { Word };
